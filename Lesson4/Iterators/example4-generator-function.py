@@ -19,6 +19,7 @@ def gen_cat(sources):
             yield item
 
 
+
 lognames = Path('/usr/www').rglob("access-log*")
 logfiles = gen_open(lognames)
 loglines = gen_cat(logfiles)
