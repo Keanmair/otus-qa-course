@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6d179e8-d7da-41af-b564-5964833ace55" name="Default" comment="Lesson2">
-      <change beforePath="$PROJECT_DIR$/HomeWork/Lesson5/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Lesson5/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Lesson5/testOpencart.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Lesson5/testOpencart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-    </list>
+    <list default="true" id="d6d179e8-d7da-41af-b564-5964833ace55" name="Default" comment="Lesson2" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HomeWork/Lesson5/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="645">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -32,10 +28,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomeWork/Lesson5/testOpencart.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
+            <state relative-caret-position="15">
+              <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
               <folding>
-                <marker date="1554897567276" expanded="true" signature="21:95" ph="..." />
+                <marker date="1554897847976" expanded="true" signature="21:95" ph="..." />
               </folding>
             </state>
           </provider>
@@ -82,8 +78,8 @@
         <option value="$PROJECT_DIR$/HomeWork/Lesson5/selectDriver.py" />
         <option value="$PROJECT_DIR$/HomeWork/Lesson5/testChrome.py" />
         <option value="$PROJECT_DIR$/HomeWork/Lesson5/testSelectBrowser.py" />
-        <option value="$PROJECT_DIR$/HomeWork/Lesson5/testOpencart.py" />
         <option value="$PROJECT_DIR$/HomeWork/Lesson5/conftest.py" />
+        <option value="$PROJECT_DIR$/HomeWork/Lesson5/testOpencart.py" />
       </list>
     </option>
   </component>
@@ -790,18 +786,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeWork/Lesson5/testOpencart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        <state relative-caret-position="15">
+          <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
           <folding>
-            <marker date="1554897567276" expanded="true" signature="21:95" ph="..." />
+            <marker date="1554897847976" expanded="true" signature="21:95" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeWork/Lesson5/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="645">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

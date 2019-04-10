@@ -20,8 +20,8 @@ baseUrl = "http://192.168.77.43/opencart/"
 def chrome_browser(url):
     chrome_options = webdriver.ChromeOptions()
     chrome_options.headless = True
-    chrome_driver = "/home/korneev/Drivers/chromedriver"
-    driver = webdriver.Chrome(executable_path=chrome_driver, options=chrome_options)
+    # chrome_driver = "/home/korneev/Drivers/chromedriver"
+    driver = webdriver.Chrome(options=chrome_options) #executable_path=chrome_driver,
     driver.maximize_window()
     driver.get(url)
     return driver
@@ -30,8 +30,8 @@ def chrome_browser(url):
 def firefox_browser(url):
     firefox_options = webdriver.FirefoxOptions()
     firefox_options.headless = True
-    firefox_driver = "/home/korneev/Drivers/geckodriver"
-    driver = webdriver.Firefox(executable_path=firefox_driver, options=firefox_options)
+    # firefox_driver = "/home/korneev/Drivers/geckodriver"
+    driver = webdriver.Firefox(options=firefox_options) #executable_path=firefox_driver,
     driver.maximize_window()
     driver.get(url)
     return driver
