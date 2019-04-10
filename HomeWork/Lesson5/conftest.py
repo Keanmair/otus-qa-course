@@ -5,50 +5,52 @@ import logging
 # __logger = logging.getLogger('Lololo')
 # __logger.setLevel('INFO')
 
-
-def __str2bool(v):
-    if v.lower() in ('yes', 'true', 't', 'y', '1'):
-        return True
-    elif v.lower() in ('no', 'false', 'f', 'n', '0'):
-        return False
-    else:
-        raise TypeError('Boolean value expected.')
+baseUrl = "http://192.168.77.43/opencart/"
 
 
-def chrome_browser():
-    options = webdriver.ChromeOptions()
-    options.headless = True
-    chromedriver = "/home/korneev/Drivers/chromedriver"
-    driver = webdriver.Chrome(executable_path=chromedriver, options=options)
+# def __str2bool(v):
+#     if v.lower() in ('yes', 'true', 't', 'y', '1'):
+#         return True
+#     elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+#         return False
+#     else:
+#         raise TypeError('Boolean value expected.')
+
+
+def chrome_browser(url):
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.headless = True
+    chrome_driver = "/home/korneev/Drivers/chromedriver"
+    driver = webdriver.Chrome(executable_path=chrome_driver, options=chrome_options)
     driver.maximize_window()
+    driver.get(url)
     return driver
 
 
-def firefox_browser():
-    options = webdriver.FirefoxOptions()
-    options.headless = True
-    firefoxdriver = "/home/korneev/Drivers/geckodriver"
-    driver = webdriver.Firefox(executable_path=firefoxdriver, options=options)
+def firefox_browser(url):
+    firefox_options = webdriver.FirefoxOptions()
+    firefox_options.headless = True
+    firefox_driver = "/home/korneev/Drivers/geckodriver"
+    driver = webdriver.Firefox(executable_path=firefox_driver, options=firefox_options)
     driver.maximize_window()
+    driver.get(url)
     return driver
 
 
 def pytest_addoption(parser):
-    parser.addoption("--brw", action="store", default="c", help="My option: c for Chrome, f for Firefox")
-    parser.addoption("--url", action="store", type=__str2bool, default=False, help="My option: True or False")
+    parser.addoption("--brw", action="store", default="c", help="Browser option: c for Chrome, f for Firefox")
+    parser.addoption("--url", action="store", default=baseUrl, help="URL option: input url for test")
 
 
 @pytest.fixture
 def brw(request):
-    if request.config.getoption("--url"):
-        print("\nBase URL: http://192.168.77.43/opencart/")
-        # __logger.info("http://192.168.77.43/opencart/")
+    print("\n"+request.config.getoption("--url"))
+    # __logger.info("http://192.168.77.43/opencart/")
 
     if request.config.getoption("--brw") == "f":
-        drv = firefox_browser()
+        drv = firefox_browser(request.config.getoption("--url"))
     if request.config.getoption("--brw") == "c":
-        drv = chrome_browser()
+        drv = chrome_browser(request.config.getoption("--url"))
     request.addfinalizer(drv.quit)
     return drv
 
-# baseUrl == "http://192.168.77.43/opencart/"
