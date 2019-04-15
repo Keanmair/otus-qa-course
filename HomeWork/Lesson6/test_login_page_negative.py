@@ -20,7 +20,6 @@ class TestLoginPage:
 
     @pytest.mark.usefixtures("login")
     def test_login(self, brw):
-        assert brw.find_element_by_class_name(
-            'close'), "Invalid locator!"
+        assert brw.find_element_by_class_name('close'), "Invalid locator!"
         # assert brw.find_element_by_class_name(
         #     'alert-dismissible').text == 'Invalid token session. Please login again.', "Invalid locator!"

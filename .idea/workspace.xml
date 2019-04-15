@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6d179e8-d7da-41af-b564-5964833ace55" name="Default" comment="Lesson2">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/korneev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/Lesson6/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/Lesson6/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/Lesson6/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/Lesson6/models/locator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/Lesson6/models/page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/Lesson6/models/page_objects/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/Lesson6/models/page_objects/page_objects.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/Lesson6/test_login_page_negative.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/Lesson6/test_login_page_positive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-    </list>
+    <list default="true" id="d6d179e8-d7da-41af-b564-5964833ace55" name="Default" comment="Lesson2" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
