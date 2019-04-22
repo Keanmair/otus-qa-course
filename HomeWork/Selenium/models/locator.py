@@ -26,3 +26,9 @@ class ProductsPageLocators(object):
     DeleteProductButton = (By.XPATH, "//button[@data-original-title='Delete']")
 
 
+class ProductLocators(object):
+    Product_name = (By.ID, "input-name1")
+    Meta_tag = (By.ID, "input-meta-title1")
+    Data = (By.XPATH, "//a[text()='Data']")
+    Model = (By.ID, "input-model")
+    SaveButton = (By.XPATH, "//button[@data-original-title='Save']")

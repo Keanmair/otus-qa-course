@@ -2,98 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d179e8-d7da-41af-b564-5964833ace55" name="Default" comment="Lesson2">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/korneev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/korneev.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Lesson6/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Lesson6/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Lesson6/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Lesson6/models/locator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Lesson6/models/page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Lesson6/models/page_objects/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Lesson6/models/page_objects/page_objects.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Lesson6/test_login_page_negative.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Lesson6/test_login_page_positive.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson1/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/decorators/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/decorators/example1-funtovar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/decorators/example10-passingarguments.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/decorators/example11-classicdecorator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/decorators/example12-decoratorwithargs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/decorators/example2-funinsidefun.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/decorators/example3-funaspar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/decorators/example4-fungenotherfun.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/decorators/example5-closure.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/decorators/example6-compdecorator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/decorators/example7-basicdecorator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/decorators/example8-multipledecorators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/decorators/example9-decoratormethods.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example1/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example1/test_sample.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example2-usefixtures/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example2-usefixtures/test_example2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example3-fixture-features/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example3-fixture-features/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example3-fixture-features/test_alpha.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example3-fixture-features/test_beta.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example3-fixture-features/test_gamma.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example4-params/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example4-params/example-params.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example5-autouse/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example5-autouse/example-autouse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example6-multiplefixtures/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example6-multiplefixtures/example-multiplefixtures.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example7-request/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example7-request/example-request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example8-modularityfixtures/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example8-modularityfixtures/example-modularityfix.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example9-returnfixt/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/fixtures/example9-returnfixt/example9-return.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/example1-parametrize/test_example1_params.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/example1-parametrize/test_example2_params.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/example1-parametrize/test_example3_fixture_params.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/example2-apitesting/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/example2-apitesting/test_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/example3-apitesting_multipleurls/test_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/example4-argparse/example1-argparseargs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/example4-argparse/example2-argparseextended.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/example5-datastructures/example1-lists.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/example5-datastructures/example2-dicts.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/example5-datastructures/example3-sets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/example5-datastructures/example4-tuples.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/example5-datastructures/example5-listvstuple.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/File_management/binary_file.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/File_management/data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/File_management/example1-rwo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/File_management/example2-readfile-generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/File_management/example3-rwb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/File_management/example4-rwb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/File_management/example5-encoding.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/File_management/example6-fileobject.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/File_management/example7-context_manager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/File_management/mynewtextfile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/File_management/workfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/Iterators/example1-iterator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/Iterators/example2-iterator-impl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/Iterators/example3-generator-expression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/Iterators/example4-generator-function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/Loops/example1-loops.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/big_o_notation/example1-constant.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/big_o_notation/example2-linear.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/big_o_notation/example3-quadratic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/big_o_notation/example4-logarithmic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/big_o_notation/example6-complexity_finding.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/selenium/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/selenium/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/selenium/models/locator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/selenium/models/page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/selenium/models/page_objects/page_objects.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/selenium/test_login_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Selenium/models/locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Selenium/models/locator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Selenium/test_products_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Selenium/test_products_page.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_products_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="392">
+              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -119,10 +30,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_login_page_negative.py">
+        <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_login_page_positive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="315">
+              <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -130,8 +41,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="48" column="26" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="26" />
+            <state relative-caret-position="30">
+              <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#147#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/locator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="510">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -208,9 +122,9 @@
         <option value="$PROJECT_DIR$/.pytest_cache/.gitignore" />
         <option value="$PROJECT_DIR$/HomeWork/Lesson6/test_forgotten_password.py" />
         <option value="$PROJECT_DIR$/otus-qa/Lesson7/oop/example1-classbasics.py" />
-        <option value="$PROJECT_DIR$/HomeWork/Selenium/models/locator.py" />
-        <option value="$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py" />
+        <option value="$PROJECT_DIR$/HomeWork/Selenium/models/locator.py" />
         <option value="$PROJECT_DIR$/HomeWork/Selenium/test_products_page.py" />
       </list>
     </option>
@@ -804,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_login_page_positive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -834,22 +741,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/locator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_login_page_positive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="48" column="26" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="26" />
+        <state relative-caret-position="30">
+          <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#147#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_products_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="392">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

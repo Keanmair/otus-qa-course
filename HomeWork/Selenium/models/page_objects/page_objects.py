@@ -1,4 +1,5 @@
-from HomeWork.Selenium.models.locator import LoginPageLocators, ForgottenPasswordLocators, ProductsPageLocators, DashboardLocators
+from HomeWork.Selenium.models.locator import LoginPageLocators, ForgottenPasswordLocators, ProductsPageLocators, \
+    DashboardLocators, ProductLocators
 from HomeWork.Selenium.models.page import BasePage
 
 
@@ -51,3 +52,20 @@ class ProductsPage(BasePage):
 
     def delete_product_button(self):
         self.find_element(ProductsPageLocators.DeleteProductButton).click()
+
+
+class ProductPage(BasePage):
+    def set_product_name(self, product_name):
+        self.driver.find_element(*ProductLocators.Product_name).send_keys(product_name)
+
+    def set_meta_tag(self, meta_tag):
+        self.driver.find_element(*ProductLocators.Meta_tag).send_keys(meta_tag)
+
+    def data_button(self):
+        self.find_element(ProductLocators.Data).click()
+
+    def set_model(self, model):
+        self.driver.find_element(*ProductLocators.Model).send_keys(model)
+
+    def save_button(self):
+        self.find_element(ProductLocators.SaveButton).click()
