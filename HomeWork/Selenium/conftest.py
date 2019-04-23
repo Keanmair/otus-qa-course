@@ -7,6 +7,8 @@ baseUrl = "http://192.168.77.43/opencart/admin/"
 
 def chrome_browser(url):
     chrome_options = webdriver.ChromeOptions()
+    capabilities = webdriver.DesiredCapabilities.CHROME.copy()
+    capabilities['timeouts'] = {'implicit': 3000, 'pageLoad': 3000, 'script': 30000}
     chrome_options.headless = False
     driver = webdriver.Chrome(options=chrome_options)
     driver.maximize_window()
@@ -16,6 +18,8 @@ def chrome_browser(url):
 
 def firefox_browser(url):
     firefox_options = webdriver.FirefoxOptions()
+    capabilities = webdriver.DesiredCapabilities.FIREFOX.copy()
+    capabilities['timeouts'] = {'implicit': 3000, 'pageLoad': 3000, 'script': 30000}
     firefox_options.headless = True
     driver = webdriver.Firefox(options=firefox_options)
     driver.maximize_window()

@@ -53,6 +53,16 @@ class ProductsPage(BasePage):
     def delete_product_button(self):
         self.find_element(ProductsPageLocators.DeleteProductButton).click()
 
+    def edit_product_button(self):
+        self.find_element(ProductsPageLocators.EditProductButton).click()
+
+    def check_successful_modified(self, text):
+        current_text = self.find_element(ProductsPageLocators.SuccessfulModified).text
+        if text in current_text:
+            return True
+        else:
+            return False
+
 
 class ProductPage(BasePage):
     def set_product_name(self, product_name):

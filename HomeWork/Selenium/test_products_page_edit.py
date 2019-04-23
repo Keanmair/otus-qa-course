@@ -1,6 +1,5 @@
 import pytest
 from HomeWork.Selenium.models.page_objects.page_objects import LoginPage, ProductsPage, Dashboard, ProductPage
-
 import time
 
 
@@ -38,20 +37,25 @@ def dashbord_actions(dashbord_page):
 
 
 @pytest.fixture
-def products_page_actions(products_page):
+def add_products(products_page):
     products_page.add_product_button()
 
 
+@pytest.fixture
+def add_product(product_page):
+    product_page.set_product_name("1")
+    product_page.set_meta_tag("test")
+    product_page.data_button()
+    product_page.set_model("test")
+    product_page.save_button()
+
+
 @pytest.mark.usefixtures("login_page")
-class TestAddProduct:
-    @pytest.mark.usefixtures("login", "dashbord_actions", "products_page_actions")
-    def test_add_product(self, product_page):
-        product_page.set_product_name("1")
-        product_page.set_meta_tag("test")
-        product_page.data_button()
-        product_page.set_model("test")
+class TestEditProduct:
+    @pytest.mark.usefixtures("login", "dashbord_actions", "add_products", "add_product")
+    def test_edit_product(self, products_page, product_page):
+        products_page.driver.refresh()
+        products_page.edit_product_button()
+        product_page.set_product_name("111")
         product_page.save_button()
-        time.sleep(5)
-
-
-
+        assert products_page.check_successful_modified("Success: You have modified products!"), "Products not modified!"

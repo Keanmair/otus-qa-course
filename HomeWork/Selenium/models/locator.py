@@ -24,6 +24,8 @@ class DashboardLocators(object):
 class ProductsPageLocators(object):
     AddProductButton = (By.XPATH, "//a[@data-original-title='Add New']")
     DeleteProductButton = (By.XPATH, "//button[@data-original-title='Delete']")
+    EditProductButton = (By.XPATH, "//a[@data-original-title='Edit']")
+    SuccessfulModified = (By.CSS_SELECTOR, ".alert")
 
 
 class ProductLocators(object):
