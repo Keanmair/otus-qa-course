@@ -4,13 +4,11 @@
 .pytest_cache/
 /venv/
 /Other/
-/otus-qa/
-Будет удалено HomeWork/Selenium/__init__.py
-Будет удалено HomeWork/Selenium/__pycache__/__init__.cpython-35.pyc
-Будет удалено HomeWork/Selenium/__pycache__/conftest.cpython-35-PYTEST.pyc
-Будет удалено HomeWork/Selenium/__pycache__/test_products_page.cpython-35-PYTEST.pyc
-Будет удалено HomeWork/Selenium/conftest.py
-Будет удалено HomeWork/Selenium/models/
-Будет удалено HomeWork/Selenium/test_login_page_negative.py
-Будет удалено HomeWork/Selenium/test_login_page_positive.py
-Будет удалено HomeWork/Selenium/test_products_page.py
+/Lesson2/
+/Lesson3/
+/Lesson4/
+/Lesson6/
+/Lesson7/
+/Lesson8/
+/Lesson9/
+/Lesson10/

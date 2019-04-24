@@ -4,7 +4,6 @@ from HomeWork.Selenium.fixtures import login_page, login, dashbord_actions, add_
 from HomeWork.Selenium.models.page_objects.page_objects import LoginPage, ProductsPage, Dashboard, ProductPage
 
 
-@pytest.mark.usefixtures("login_page")
 class TestAddProduct:
     @pytest.mark.usefixtures("login", "dashbord_actions")
     def test_add_product(self, products_page, product_page):

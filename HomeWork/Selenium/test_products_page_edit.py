@@ -5,7 +5,6 @@ from HomeWork.Selenium.models.page_objects.page_objects import LoginPage, Produc
 import time
 
 
-@pytest.mark.usefixtures("login_page")
 class TestEditProduct:
     @pytest.mark.usefixtures("login", "dashbord_actions", "add_products", "add_product")
     def test_edit_product(self, products_page, product_page):
