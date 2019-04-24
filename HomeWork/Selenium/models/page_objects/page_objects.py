@@ -50,6 +50,9 @@ class ProductsPage(BasePage):
     def add_product_button(self):
         self.find_element(ProductsPageLocators.AddProductButton).click()
 
+    def del_check_box(self):
+        self.find_element(ProductsPageLocators.DelCheckBox).click()
+
     def delete_product_button(self):
         self.find_element(ProductsPageLocators.DeleteProductButton).click()
 
