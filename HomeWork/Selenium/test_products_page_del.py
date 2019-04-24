@@ -1,8 +1,5 @@
 import pytest
-
 from HomeWork.Selenium.fixtures import login_page, login, dashbord_actions, add_product, add_products, dashbord_page, products_page, product_page
-from HomeWork.Selenium.models.page_objects.page_objects import LoginPage, ProductsPage, Dashboard, ProductPage
-import time
 
 
 class TestDelProduct:

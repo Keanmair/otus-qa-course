@@ -1,20 +1,7 @@
 import pytest
-from HomeWork.Selenium.models.page_objects.page_objects import LoginPage
+from HomeWork.Selenium.fixtures import login_page, login
 
 
-@pytest.fixture
-def login_page(brw):
-    return LoginPage(brw)
-
-
-@pytest.fixture
-def login(login_page):
-    login_page.set_username("admin")
-    login_page.set_password("PASSWORD")
-    login_page.login_button()
-
-
-@pytest.mark.usefixtures("login_page")
 class TestLoginPage:
 
     @pytest.mark.usefixtures("login")
