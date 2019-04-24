@@ -32,7 +32,7 @@ def pytest_addoption(parser):
     parser.addoption("--url", action="store", default=baseUrl, help="URL option: input url for test")
 
 
-@pytest.fixture
+@pytest.fixture(scope="session", autouse=True)
 def brw(request):
     print("\n"+request.config.getoption("--url"))
     if request.config.getoption("--brw") == "f":
