@@ -66,5 +66,5 @@ def add_image(product_page):
     product_page.choose_image()
     product_page.edit_image()
     product_page.upload_image()
-    product_page.add_custom_image("/home/korneev/Pictures/1.png")
+    product_page.add_custom_image("/home/korneev/Pictures/1.png \n /home/korneev/Pictures/2.jpg \n /home/korneev/Pictures/3.jpg")
 

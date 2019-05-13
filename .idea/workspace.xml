@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d179e8-d7da-41af-b564-5964833ace55" name="Default" comment="Lesson2">
-      <change afterPath="$PROJECT_DIR$/HomeWork/Selenium/test_add_picture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson11/1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson11/alerts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson11/downloadfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson11/frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson11/windows.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/test_logging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/test_logging_browser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/test_performance_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/test_proxy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson5/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson5/parallelrun/application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson5/parallelrun/my_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson5/parallelrun/test_chrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson5/parallelrun/test_firefox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson5/test_example_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson5/test_example_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson5/test_example_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWork/Selenium/fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Selenium/fixtures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Selenium/models/locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Selenium/models/locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Selenium/models/page.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Selenium/models/page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Selenium/test_products_page_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Selenium/test_products_page_add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson10/oop/descriptors/desciptors-datadescr.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson10/oop/descriptors/desciptors-datadescr.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,43 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_products_page_add.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_products_page_del.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="87" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="87" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="47" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_add_picture.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -90,13 +27,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/fixtures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="477">
+              <caret line="68" column="123" selection-start-line="68" selection-start-column="123" selection-end-line="68" selection-end-column="123" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#1#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -200,9 +137,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/HomeWork/Selenium/models/locator.py" />
         <option value="$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py" />
-        <option value="$PROJECT_DIR$/HomeWork/Selenium/fixtures.py" />
         <option value="$PROJECT_DIR$/HomeWork/Selenium/models/page.py" />
         <option value="$PROJECT_DIR$/HomeWork/Selenium/test_add_picture.py" />
+        <option value="$PROJECT_DIR$/HomeWork/Selenium/fixtures.py" />
       </list>
     </option>
   </component>
@@ -236,11 +173,6 @@
               <item name="otus-qa-course" type="462c0819:PsiDirectoryNode" />
               <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
               <item name="Selenium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="otus-qa-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="otus-qa-course" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -794,16 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_products_page_del.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -845,10 +767,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/page.py">
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -862,22 +787,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/fixtures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="68" column="123" selection-start-line="68" selection-start-column="123" selection-end-line="68" selection-end-column="123" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_add_picture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#1#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/fixtures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
