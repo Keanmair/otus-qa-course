@@ -1,5 +1,6 @@
 import pytest
-from HomeWork.Selenium.fixtures import login_page, login, dashbord_actions, add_product, add_products, dashbord_page, products_page, product_page
+from HomeWork.Selenium.fixtures import login_page, login, dashbord_actions, add_product, add_products, dashbord_page, \
+    products_page, product_page
 
 
 class TestAddProduct:
@@ -11,4 +12,8 @@ class TestAddProduct:
         product_page.data_button()
         product_page.set_model("test")
         product_page.save_button()
-        assert products_page.check_successful_modified("Success: You have modified products!"), "Products not modified!"
+        # assert products_page.check_successful_modified("Success: You have modified products!"), "Products not modified!"
+        try:
+            products_page.check_successful_modified("Success: You have modified products!")
+        except Exception:
+            raise TimeoutError('Add Failed!')

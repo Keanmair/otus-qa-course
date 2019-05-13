@@ -1,6 +1,14 @@
-import pytest
+import time
 
-from HomeWork.Selenium.models.page_objects.page_objects import LoginPage, Dashboard, ProductsPage, ProductPage
+import pytest
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+from HomeWork.Selenium.conftest import brw
+from HomeWork.Selenium.models.page_objects.page_objects import LoginPage, Dashboard, ProductsPage, ProductPage, \
+    SetImage
 
 
 @pytest.fixture(scope="module")
@@ -21,6 +29,11 @@ def products_page(brw):
 @pytest.fixture(scope="module")
 def product_page(brw):
     return ProductPage(brw)
+
+
+@pytest.fixture(scope="module")
+def image_page(brw):
+    return SetImage(brw)
 
 
 @pytest.fixture(scope="function")
@@ -48,4 +61,19 @@ def add_product(product_page):
     product_page.data_button()
     product_page.set_model("test")
     product_page.save_button()
+
+
+@pytest.fixture(scope="function")
+def add_image(product_page):
+    product_page.set_product_name("1")
+    product_page.set_meta_tag("test")
+    product_page.data_button()
+    product_page.set_model("test")
+    product_page.image_button()
+    product_page.add_image()
+    product_page.choose_image()
+    product_page.edit_image()
+    product_page.upload_image()
+    time.sleep(5)
+    product_page.add_custom_image("/home/korneev/Pictures/1.png")
 

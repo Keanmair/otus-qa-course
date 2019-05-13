@@ -44,6 +44,14 @@ class BasePage:
         # except (NoSuchElementException, TimeoutException):
         #     return
 
+    def wait_element_presence(self, locator, element=None):
+        """Method for find one element with waiter, if element not found in DOM, from root or from WebElement"""
+        # try:
+        root = element or self.driver
+        return WebDriverWait(root, 3).until(EC.presence_of_element_located(locator))
+        # except (NoSuchElementException, TimeoutException):
+        #     return
+
     def find_elements(self, locator, element=None):
         """Method for finding list of elements, from root or from WebElement"""
         root = element or self.driver

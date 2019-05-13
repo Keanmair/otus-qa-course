@@ -18,7 +18,7 @@ class ForgottenPasswordLocators(object):
 
 class DashboardLocators(object):
     MenuCatalog = (By.ID, "menu-catalog")
-    Categories = (By.XPATH, "//a[text()='Products']")
+    Products = (By.XPATH, "//a[text()='Products']")
 
 
 class ProductsPageLocators(object):
@@ -33,5 +33,15 @@ class ProductLocators(object):
     Product_name = (By.ID, "input-name1")
     Meta_tag = (By.ID, "input-meta-title1")
     Data = (By.XPATH, "//a[text()='Data']")
+    Image = (By.XPATH, "//a[text()='Image']")
     Model = (By.ID, "input-model")
+    ImageIcon = (By.CLASS_NAME, "img-thumbnail")
     SaveButton = (By.XPATH, "//button[@data-original-title='Save']")
+    EditImageButton = (By.ID, "button-image")
+    AddImageButton = (By.XPATH, "//button[@data-original-title='Add Image']")
+    UploadImageButton = (By.XPATH, "//button[@data-original-title='Upload']")
+    input_manager = (By.XPATH, "//input[@name='file[]']")
+
+
+class ImagesLocators(object):
+    Image_1 = (By.XPATH, "//a[@href='http://192.168.77.43/opencart/image/catalog/1.png']")

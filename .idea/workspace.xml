@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6d179e8-d7da-41af-b564-5964833ace55" name="Default" comment="Lesson2" />
+    <list default="true" id="d6d179e8-d7da-41af-b564-5964833ace55" name="Default" comment="Lesson2">
+      <change afterPath="$PROJECT_DIR$/HomeWork/Selenium/test_add_picture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson11/1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson11/alerts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson11/downloadfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson11/frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson11/windows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson12/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson12/test_logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson12/test_logging_browser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson12/test_performance_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson12/test_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson5/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson5/parallelrun/application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson5/parallelrun/my_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson5/parallelrun/test_chrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson5/parallelrun/test_firefox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson5/test_example_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson5/test_example_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson5/test_example_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Selenium/fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Selenium/fixtures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Selenium/models/locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Selenium/models/locator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Selenium/models/page.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Selenium/models/page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Selenium/test_products_page_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Selenium/test_products_page_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson10/oop/descriptors/desciptors-datadescr.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson10/oop/descriptors/desciptors-datadescr.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +41,98 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_products_page_add.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_products_page_del.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="87" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="87" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_add_picture.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#1#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/fixtures.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="100" column="37" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#153#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/locator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,11 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Lesson2/test_example2.py" />
-        <option value="$PROJECT_DIR$/Lesson2/fixtures/example9-returnfixt/example9-return.py" />
-        <option value="$PROJECT_DIR$/Lesson2/decorators/example3-funaspar.py" />
-        <option value="$PROJECT_DIR$/Lesson2/decorators/example10-passingarguments.py" />
-        <option value="$PROJECT_DIR$/Lesson3/example1-parametrize/test_example1_params.py" />
         <option value="$PROJECT_DIR$/Lesson3/example5-datastructures/example1-lists.py" />
         <option value="$PROJECT_DIR$/Lesson4/Loops/example1-loops.py" />
         <option value="$PROJECT_DIR$/Lesson4/Iterators/example1-iterator.py" />
@@ -74,23 +189,28 @@
         <option value="$PROJECT_DIR$/HomeWork/Lesson5/conftest.py" />
         <option value="$PROJECT_DIR$/otus-qa/Lesson9/exceptions/example1-basic.py" />
         <option value="$PROJECT_DIR$/HomeWork/Selenium/test_products_page.py" />
-        <option value="$PROJECT_DIR$/HomeWork/Selenium/models/locator.py" />
         <option value="$PROJECT_DIR$/HomeWork/Selenium/text_products_page_del.py" />
-        <option value="$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py" />
-        <option value="$PROJECT_DIR$/HomeWork/Selenium/conftest.py" />
-        <option value="$PROJECT_DIR$/HomeWork/Selenium/fixtures.py" />
-        <option value="$PROJECT_DIR$/HomeWork/Selenium/test_products_page_del.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/HomeWork/Selenium/test_products_page_add.py" />
+        <option value="$PROJECT_DIR$/HomeWork/Selenium/test_login_page_positive.py" />
+        <option value="$PROJECT_DIR$/HomeWork/Selenium/test_login_page_negative.py" />
         <option value="$PROJECT_DIR$/HomeWork/Selenium/test_products_page_edit.py" />
+        <option value="$PROJECT_DIR$/HomeWork/Selenium/test_products_page_del.py" />
+        <option value="$PROJECT_DIR$/Lesson10/oop/descriptors/desciptors-datadescr.py" />
+        <option value="$PROJECT_DIR$/HomeWork/Selenium/conftest.py" />
+        <option value="$PROJECT_DIR$/HomeWork/Selenium/test_products_page_add.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/HomeWork/Selenium/models/locator.py" />
+        <option value="$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py" />
+        <option value="$PROJECT_DIR$/HomeWork/Selenium/fixtures.py" />
+        <option value="$PROJECT_DIR$/HomeWork/Selenium/models/page.py" />
+        <option value="$PROJECT_DIR$/HomeWork/Selenium/test_add_picture.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1981" />
-    <option name="y" value="-4" />
-    <option name="width" value="1859" />
-    <option name="height" value="1084" />
+    <option name="y" value="24" />
+    <option name="width" value="1857" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -114,27 +234,13 @@
             <path>
               <item name="otus-qa-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="otus-qa-course" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson10" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Selenium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="otus-qa-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="otus-qa-course" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson10" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="otus-qa-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="otus-qa-course" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson10" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="abc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="otus-qa-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="otus-qa-course" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson10" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="descriptors" type="462c0819:PsiDirectoryNode" />
+              <item name="Lesson11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -144,23 +250,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/Lesson11/1.JPG&#10;/home/korneev/PycharmProjects/otus-qa-course/.gitignore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HomeWork/Selenium" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/HomeWork/Lesson6/models" />
-      <recent name="$PROJECT_DIR$/HomeWork/Lesson3" />
-      <recent name="$PROJECT_DIR$/Other" />
-      <recent name="$PROJECT_DIR$/Lesson1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HomeWork/Selenium" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/HomeWork" />
       <recent name="$PROJECT_DIR$/HomeWork/Lesson6/models/page_objects" />
       <recent name="$PROJECT_DIR$/HomeWork/Lesson6/models" />
-      <recent name="$PROJECT_DIR$/HomeWork/Lesson6" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/HomeWork/Lesson6/models" />
+      <recent name="$PROJECT_DIR$/HomeWork/Lesson3" />
+      <recent name="$PROJECT_DIR$/Other" />
+      <recent name="$PROJECT_DIR$/Lesson1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -175,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_products_page">
+  <component name="RunManager" selected="Python.static-and-classmethods">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,7 +323,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="example1-classbasics" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="desciptors-datadescr" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="otus-qa-course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,32 +331,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/otus-qa/Lesson7/oop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson10/oop/descriptors" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/otus-qa/Lesson7/oop/example1-classbasics.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="example2_dict2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="otus-qa-course" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/otus-qa/Lesson7/oop" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/otus-qa/Lesson7/oop/example2_dict2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson10/oop/descriptors/desciptors-datadescr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,6 +386,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="static-and-classmethods" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="otus-qa-course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson10/oop/descriptors" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson10/oop/descriptors/static-and-classmethods.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_products_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="otus-qa-course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -323,11 +430,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.static-and-classmethods" />
+        <item itemvalue="Python.desciptors-datadescr" />
         <item itemvalue="Python.test_products_page" />
         <item itemvalue="Python.page_objects" />
         <item itemvalue="Python.example3_namemangling2" />
-        <item itemvalue="Python.example2_dict2" />
-        <item itemvalue="Python.example1-classbasics" />
       </list>
     </recent_temporary>
   </component>
@@ -405,8 +512,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1980" y="-4" width="1861" height="1085" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -419,7 +527,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.498366" weight="0.32925585" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5163399" side_tool="true" weight="0.401631" />
       <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49509802" weight="0.3119266" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.48366013" visible="true" weight="0.35474005" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.48366013" visible="true" weight="0.33843017" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -506,151 +614,18 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson7/selenium/models/locator.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson7/selenium/test_login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="68" lean-forward="true" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/selenium/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/selenium/webdriver/chrome/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5845">
-          <caret line="563" selection-start-line="563" selection-end-line="563" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/selenium/webdriver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson7/selenium/test_products_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson7/oop/example1-classbasics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson7/oop/example2_dict1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson7/oop/example2_dict2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson7/oop/example2_dict3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson7/oop/example3_namemangling.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson7/oop/example3_namemangling2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Lesson6/test_forgotten_password.py" />
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Lesson5/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson6/selenium/test_login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_login_page_positive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/exceptions/example1-basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/exceptions/example2-multipleexceptions.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/exceptions/example3-finally.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/exceptions/example4-else.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/exceptions/example5-raise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/exceptions/example6-custom.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/selenium/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="88" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson6/selenium/test_login_page.py" />
+    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/exceptions/example1-basic.py" />
+    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/exceptions/example2-multipleexceptions.py" />
+    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/exceptions/example3-finally.py" />
+    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/exceptions/example4-else.py" />
+    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/exceptions/example5-raise.py" />
+    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/exceptions/example6-custom.py" />
+    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/selenium/conftest.py" />
     <entry file="file:///usr/local/lib/python3.5/dist-packages/selenium/webdriver/common/desired_capabilities.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-68">
           <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_login_page_negative.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -668,106 +643,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/locator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson6/selenium/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/selenium/test_products_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/selenium/test_login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson6/selenium/conftest.py" />
+    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/selenium/test_products_page.py" />
+    <entry file="file://$PROJECT_DIR$/otus-qa/Lesson9/selenium/test_login_page.py" />
     <entry file="file://$PROJECT_DIR$/.git/info/exclude">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_products_page_edit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_products_page_add.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#1#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_products_page_del.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/fixtures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson10/codestyle/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -781,6 +661,23 @@
     <entry file="file://$PROJECT_DIR$/Lesson10/codestyle/pylint_good.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_login_page_positive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_login_page_negative.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson10/oop/abc/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson10/oop/abc/abc.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -788,13 +685,202 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson10/oop/descriptors/desciptors-datadescr.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson10/oop/descriptors/descriptors-property.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson10/oop/descriptors/descriptors-property2.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson10/oop/descriptors/descriptors-statiсclassmethod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson10/oop/descriptors/static-and-classmethods.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson9/selenium/test_login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_products_page_edit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="94" selection-start-line="1" selection-start-column="94" selection-end-line="1" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson9/exceptions/example5-raise.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson9/exceptions/example1-basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson9/selenium/test_products_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-1247971764/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79290">
+          <caret line="5286" column="6" selection-start-line="5286" selection-start-column="6" selection-end-line="5286" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson9/selenium/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson11/windows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson11/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson11/1.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson11/downloadfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_products_page_del.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="87" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/selenium/webdriver/common/action_chains.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/_pytest/fixtures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="1016" column="43" selection-start-line="1016" selection-start-column="36" selection-end-line="1016" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/locator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_products_page_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="100" column="37" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_add_picture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#1#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/fixtures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

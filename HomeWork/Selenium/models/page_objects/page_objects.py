@@ -1,24 +1,24 @@
 from HomeWork.Selenium.models.locator import LoginPageLocators, ForgottenPasswordLocators, ProductsPageLocators, \
-    DashboardLocators, ProductLocators
+    DashboardLocators, ProductLocators, ImagesLocators
 from HomeWork.Selenium.models.page import BasePage
 
 
 class LoginPage(BasePage):
 
     def set_username(self, username):
-        self.driver.find_element(*LoginPageLocators.Username).send_keys(username)
+        self.find_element(LoginPageLocators.Username).send_keys(username)
 
     def set_password(self, password):
-        self.driver.find_element(*LoginPageLocators.Password).send_keys(password)
+        self.find_element(LoginPageLocators.Password).send_keys(password)
 
     def login_button(self):
         self.find_element(LoginPageLocators.LoginButton).click()
 
     def clear_login(self):
-        self.clear_text(self.driver.find_element(*LoginPageLocators.Username))
+        self.clear_text(self.find_element(LoginPageLocators.Username))
 
     def clear_password(self):
-        self.clear_text(self.driver.find_element(*LoginPageLocators.Password))
+        self.clear_text(self.find_element(LoginPageLocators.Password))
 
     def forgotten_password_button(self):
         self.find_element(LoginPageLocators.ForgottenPassword).click()
@@ -27,7 +27,7 @@ class LoginPage(BasePage):
 class ForgottenPage(BasePage):
 
     def set_email(self, email):
-        self.driver.find_element(*ForgottenPasswordLocators.Email).send_keys(email)
+        self.find_element(ForgottenPasswordLocators.Email).send_keys(email)
 
     def reset_button(self):
         self.find_element(ForgottenPasswordLocators.ResetButton).click()
@@ -42,7 +42,7 @@ class Dashboard(BasePage):
         self.find_element(DashboardLocators.MenuCatalog).click()
 
     def categories_button(self):
-        self.find_element(DashboardLocators.Categories).click()
+        self.find_element(DashboardLocators.Products).click()
 
 
 class ProductsPage(BasePage):
@@ -69,16 +69,39 @@ class ProductsPage(BasePage):
 
 class ProductPage(BasePage):
     def set_product_name(self, product_name):
-        self.driver.find_element(*ProductLocators.Product_name).send_keys(product_name)
+        self.find_element(ProductLocators.Product_name).send_keys(product_name)
 
     def set_meta_tag(self, meta_tag):
-        self.driver.find_element(*ProductLocators.Meta_tag).send_keys(meta_tag)
+        self.find_element(ProductLocators.Meta_tag).send_keys(meta_tag)
 
     def data_button(self):
         self.find_element(ProductLocators.Data).click()
 
     def set_model(self, model):
-        self.driver.find_element(*ProductLocators.Model).send_keys(model)
+        self.find_element(ProductLocators.Model).send_keys(model)
 
     def save_button(self):
         self.find_element(ProductLocators.SaveButton).click()
+
+    def image_button(self):
+        self.find_element(ProductLocators.Image).click()
+
+    def add_image(self):
+        self.find_element(ProductLocators.AddImageButton).click()
+
+    def choose_image(self):
+        self.find_element(ProductLocators.ImageIcon).click()
+
+    def edit_image(self):
+        self.find_element(ProductLocators.EditImageButton).click()
+
+    def upload_image(self):
+        self.find_element(ProductLocators.UploadImageButton).click()
+
+    def add_custom_image(self, text):
+        self.wait_element_presence(ProductLocators.input_manager).send_keys(text)
+
+
+class SetImage(BasePage):
+    def set_image1(self):
+        self.find_element(ImagesLocators.Image_1).click()

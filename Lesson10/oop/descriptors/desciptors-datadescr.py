@@ -11,12 +11,12 @@ class DataDesc:
 
 
 class DataHolder:
-        data = DataDesc()
+    data = DataDesc()
 
 
 d = DataHolder()
 
-DataHolder.data # Trying to access from None class <class '__main__.DataHolder'>
-d.data          # Trying to access from <__main__.DataHolder object at ...> class <class '__main__.DataHolder'>
-d.data = 1      # Trying to set 1 for <__main__.DataHolder object at ...>
-del(d.data)     # Trying to delete from <__main__.DataHolder object at ...>
+DataHolder.data  # Trying to access from None class <class '__main__.DataHolder'>
+d.data  # Trying to access from <__main__.DataHolder object at ...> class <class '__main__.DataHolder'>
+d.data = 1  # Trying to set 1 for <__main__.DataHolder object at ...>
+del (d.data)  # Trying to delete from <__main__.DataHolder object at ...>
