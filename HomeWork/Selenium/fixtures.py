@@ -1,12 +1,4 @@
-import time
-
 import pytest
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
-from HomeWork.Selenium.conftest import brw
 from HomeWork.Selenium.models.page_objects.page_objects import LoginPage, Dashboard, ProductsPage, ProductPage, \
     SetImage
 
@@ -74,6 +66,5 @@ def add_image(product_page):
     product_page.choose_image()
     product_page.edit_image()
     product_page.upload_image()
-    time.sleep(5)
     product_page.add_custom_image("/home/korneev/Pictures/1.png")
 
