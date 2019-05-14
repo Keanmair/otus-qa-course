@@ -56,15 +56,16 @@ def add_product(product_page):
 
 
 @pytest.fixture(scope="function")
-def add_image(product_page):
+def add_images(product_page):
     product_page.set_product_name("1")
     product_page.set_meta_tag("test")
     product_page.data_button()
     product_page.set_model("test")
     product_page.image_button()
     product_page.add_image()
-    product_page.choose_image()
+    product_page.choose_default_image()
     product_page.edit_image()
     product_page.upload_image()
-    product_page.add_custom_image("/home/korneev/Pictures/1.png \n /home/korneev/Pictures/2.jpg \n /home/korneev/Pictures/3.jpg")
+    product_page.add_custom_image("/home/korneev/Pictures/1.png \n /home/korneev/Pictures/2.jpg \n "
+                                  "/home/korneev/Pictures/3.jpg")
 

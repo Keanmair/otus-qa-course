@@ -1,6 +1,10 @@
+from selenium import webdriver
+
 from HomeWork.Selenium.models.locator import LoginPageLocators, ForgottenPasswordLocators, ProductsPageLocators, \
     DashboardLocators, ProductLocators, ImagesLocators
 from HomeWork.Selenium.models.page import BasePage
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
 
 
 class LoginPage(BasePage):
@@ -89,8 +93,8 @@ class ProductPage(BasePage):
     def add_image(self):
         self.find_element(ProductLocators.AddImageButton).click()
 
-    def choose_image(self):
-        self.find_element(ProductLocators.ImageIcon).click()
+    def choose_default_image(self):
+        self.find_element(ProductLocators.DefaultImageIcon).click()
 
     def edit_image(self):
         self.find_element(ProductLocators.EditImageButton).click()
@@ -99,9 +103,24 @@ class ProductPage(BasePage):
         self.find_element(ProductLocators.UploadImageButton).click()
 
     def add_custom_image(self, text):
-        self.wait_element_presence(ProductLocators.input_manager).send_keys(text)
+        self.wait_element_presence(ProductLocators.InputManager).send_keys(text)
 
 
 class SetImage(BasePage):
     def set_image1(self):
         self.find_element(ImagesLocators.Image_1).click()
+
+    def set_image2(self):
+        self.find_element(ImagesLocators.Image_2).click()
+
+    def set_image3(self):
+        self.find_element(ImagesLocators.Image_3).click()
+
+    def check_image_1(self):
+        assert self.assert_element_presence(ImagesLocators.NewImage_1), "No such image"
+
+    def check_image_2(self):
+        assert self.assert_element_presence(ImagesLocators.NewImage_2), "No such image"
+
+    def check_image_3(self):
+        assert self.assert_element_presence(ImagesLocators.NewImage_3), "No such image"

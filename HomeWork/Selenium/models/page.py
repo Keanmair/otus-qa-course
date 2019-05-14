@@ -1,3 +1,4 @@
+import pickle
 import string
 
 from selenium.webdriver.support.ui import WebDriverWait
@@ -49,6 +50,18 @@ class BasePage:
         # try:
         root = element or self.driver
         return WebDriverWait(root, 3).until(EC.presence_of_element_located(locator))
+        # except (NoSuchElementException, TimeoutException):
+        #     return
+
+    def assert_element_presence(self, locator, element=None):
+        """Method for find one element with waiter, if element not found in DOM, from root or from WebElement"""
+        # try:
+        root = element or self.driver
+        try:
+            WebDriverWait(root, 3).until(EC.presence_of_element_located(locator))
+            return True
+        except (NoSuchElementException, TimeoutException):
+            return False
         # except (NoSuchElementException, TimeoutException):
         #     return
 
