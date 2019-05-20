@@ -12,7 +12,7 @@ from selenium.webdriver.common.by import By
 
 class TestAddProduct:
     @pytest.mark.usefixtures("login", "dashbord_actions", "add_products", "add_images")
-    def test_add_product(self, products_page, product_page, image_page, brw):
+    def test_add_picture(self, products_page, product_page, image_page, brw):
         webdriver.ActionChains(brw).send_keys(Keys.ESCAPE).perform()
         try:
             WebDriverWait(brw, 3).until(EC.alert_is_present())
