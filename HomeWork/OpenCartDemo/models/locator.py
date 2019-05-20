@@ -15,4 +15,4 @@ class DashboardLocators(object):
 class DragNDrop(object):
     SourceElem = (By.XPATH, "//dl[@class='custommenu-item-bar']//span[text()='Контакты']")
     DestElem = (By.XPATH, "//dl[@class='custommenu-item-bar']")
-    SuccsesDrag = (By.XPATH, "//ul[@id='custommenu-to-edit']/li[1]//span[@class='custommenu-item-title']")
+    SuccesDrag = (By.XPATH, "//ul[@id='custommenu-to-edit']/li[1]//span[@class='custommenu-item-title']")
