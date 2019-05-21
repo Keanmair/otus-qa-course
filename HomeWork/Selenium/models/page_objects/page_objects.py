@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 from HomeWork.Selenium.models.locator import LoginPageLocators, ForgottenPasswordLocators, ProductsPageLocators, \
-    DashboardLocators, ProductLocators, ImagesLocators
+    DashboardLocators, ProductLocators, ImagesLocators, DownloadsLocators
 from HomeWork.Selenium.models.page import BasePage
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
@@ -47,6 +47,9 @@ class Dashboard(BasePage):
 
     def categories_button(self):
         self.find_element(DashboardLocators.Products).click()
+
+    def downloads_button(self):
+        self.find_element(DashboardLocators.Downloads).click()
 
 
 class ProductsPage(BasePage):
@@ -124,3 +127,33 @@ class SetImage(BasePage):
 
     def check_image_3(self):
         assert self.assert_element_presence(ImagesLocators.NewImage_3), "No such image"
+
+
+class DownloadsPage(BasePage):
+    def add_new_download_button(self):
+        self.find_element(DownloadsLocators.Add_new_download_button).click()
+
+    def set_download_name(self, download_name):
+        self.find_element(DownloadsLocators.Download_name).send_keys(download_name)
+
+    def set_file_name(self, file_name):
+        self.find_element(DownloadsLocators.File_name).send_keys(file_name)
+
+    def set_mask_name(self, mask_name):
+        self.find_element(DownloadsLocators.Mask_name).send_keys(mask_name)
+
+    def save_download_button(self):
+        self.find_element(DownloadsLocators.Download_save_button).click()
+
+    def upload_file_button(self):
+        self.find_element(DownloadsLocators.Upload_button).click()
+
+    def add_download_file(self, text):
+        self.wait_element_presence(DownloadsLocators.DownloadInputManager).send_keys(text)
+
+    def succsefull_download(self, text):
+        current_text = self.find_element(DownloadsLocators.SuccefulDownload).text
+        if text in current_text:
+            return True
+        else:
+            return False

@@ -19,6 +19,7 @@ class ForgottenPasswordLocators(object):
 class DashboardLocators(object):
     MenuCatalog = (By.ID, "menu-catalog")
     Products = (By.XPATH, "//a[text()='Products']")
+    Downloads = (By.XPATH, "//a[text()='Downloads']")
 
 
 class ProductsPageLocators(object):
@@ -50,3 +51,14 @@ class ImagesLocators(object):
     NewImage_1 = (By.XPATH, "//img[@src='http://192.168.77.43/opencart/image/cache/catalog/1-100x100.png']")
     NewImage_3 = (By.XPATH, "//img[@src='http://192.168.77.43/opencart/image/cache/catalog/3-100x100.jpg']")
     NewImage_2 = (By.XPATH, "//img[@src='http://192.168.77.43/opencart/image/cache/catalog/2-100x100.jpg']")
+
+
+class DownloadsLocators(object):
+    Add_new_download_button = (By.XPATH, "//a[@data-original-title='Add New']")
+    Download_name = (By.NAME, "download_description[1][name]")
+    File_name = (By.ID, "input-filename")
+    Mask_name = (By.ID, "input-mask")
+    Download_save_button = (By.XPATH, "//button[@data-original-title='Save']")
+    Upload_button = (By.ID, "button-upload")
+    DownloadInputManager = (By.XPATH, "//input[@name='file']")
+    SuccefulDownload = (By.XPATH, "//td[text()='test_blog_down']")

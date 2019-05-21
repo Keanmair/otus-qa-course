@@ -1,6 +1,6 @@
 import pytest
 from HomeWork.Selenium.models.page_objects.page_objects import LoginPage, Dashboard, ProductsPage, ProductPage, \
-    SetImage
+    SetImage, DownloadsPage
 
 
 @pytest.fixture(scope="module")
@@ -28,6 +28,11 @@ def image_page(brw):
     return SetImage(brw)
 
 
+@pytest.fixture(scope="module")
+def downloads_page(brw):
+    return DownloadsPage(brw)
+
+
 @pytest.fixture(scope="function")
 def login(login_page):
     login_page.set_username("admin")
@@ -36,9 +41,15 @@ def login(login_page):
 
 
 @pytest.fixture(scope="function")
-def dashbord_actions(dashbord_page):
+def dashbord_actions_categories(dashbord_page):
     dashbord_page.menu_catalog_button()
     dashbord_page.categories_button()
+
+
+@pytest.fixture(scope="function")
+def dashbord_actions_downloads(dashbord_page):
+    dashbord_page.menu_catalog_button()
+    dashbord_page.downloads_button()
 
 
 @pytest.fixture(scope="function")

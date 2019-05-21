@@ -1,10 +1,10 @@
 import pytest
-from HomeWork.Selenium.fixtures import login_page, login, dashbord_actions, add_product, add_products, dashbord_page, \
+from HomeWork.Selenium.fixtures import login_page, login, dashbord_actions_categories, add_product, add_products, dashbord_page, \
     products_page, product_page
 
 
 class TestAddProduct:
-    @pytest.mark.usefixtures("login", "dashbord_actions")
+    @pytest.mark.usefixtures("login", "dashbord_actions_categories")
     def test_add_product(self, products_page, product_page):
         products_page.add_product_button()
         product_page.set_product_name("1")

@@ -5,13 +5,13 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 
-from HomeWork.Selenium.fixtures import login_page, login, dashbord_actions, add_product, add_products, dashbord_page, \
+from HomeWork.Selenium.fixtures import login_page, login, dashbord_actions_categories, add_product, add_products, dashbord_page, \
     products_page, product_page, image_page, add_images
 from selenium.webdriver.common.by import By
 
 
 class TestAddProduct:
-    @pytest.mark.usefixtures("login", "dashbord_actions", "add_products", "add_images")
+    @pytest.mark.usefixtures("login", "dashbord_actions_categories", "add_products", "add_images")
     def test_add_picture(self, products_page, product_page, image_page, brw):
         webdriver.ActionChains(brw).send_keys(Keys.ESCAPE).perform()
         try:
