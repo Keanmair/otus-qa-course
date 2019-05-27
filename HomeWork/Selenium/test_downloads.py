@@ -12,4 +12,5 @@ class TestDownloadFile:
         downloads_page.upload_file_button()
         downloads_page.add_download_file("/home/korneev/Pictures/1.png")
         downloads_page.save_download_button()
-        assert downloads_page.succsefull_download("test"), "Unsuccesfull Download"
+        assert downloads_page.succsefull_download("test"), "Unsuccessful Download"
+

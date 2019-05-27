@@ -21,8 +21,8 @@ def pytest_addoption(parser):
 #             # only add additional allure on failure
 #             extra.append(pytest_html.extras.html('<div>Additional HTML</div>'))
 #         report.extra = extra
-
-
+#
+#
 @pytest.mark.usefixtures("environment_info")
 @pytest.fixture(scope='session', autouse=True)
 def configure_html_report_env(request, environment_info):
@@ -37,5 +37,3 @@ def environment_info():
     os_platform = platform.platform()
     linux_dist = platform.linux_distribution()
     return os_platform, linux_dist
-
-

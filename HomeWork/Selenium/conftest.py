@@ -1,6 +1,6 @@
 import pytest
+import platform
 from selenium import webdriver
-
 
 baseUrl = "http://192.168.77.43/opencart/admin/"
 
@@ -34,7 +34,7 @@ def pytest_addoption(parser):
 
 @pytest.fixture(scope="session", autouse=True)
 def brw(request):
-    print("\n"+request.config.getoption("--url"))
+    print("\n" + request.config.getoption("--url"))
     if request.config.getoption("--brw") == "f":
         drv = firefox_browser(request.config.getoption("--url"))
     if request.config.getoption("--brw") == "c":
@@ -42,3 +42,19 @@ def brw(request):
     request.addfinalizer(drv.quit)
     return drv
 
+
+@pytest.mark.usefixtures("environment_info")
+@pytest.fixture(scope='session', autouse=True)
+def configure_html_report_env(request, environment_info):
+    request.config._metadata.update(
+        {"Browser": request.config.getoption("--brw"),
+         "Address": request.config.getoption("--url"),
+         "TROLOLO": "LOLOLO"})
+    yield
+
+
+@pytest.fixture(scope="session")
+def environment_info():
+    os_platform = platform.platform()
+    linux_dist = platform.linux_distribution()
+    return os_platform, linux_dist
