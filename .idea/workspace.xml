@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d179e8-d7da-41af-b564-5964833ace55" name="Default" comment="Lesson2">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Selenium/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Selenium/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Selenium/test_downloads.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Selenium/test_downloads.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson14/html/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson14/html/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out_report" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
+            <state relative-caret-position="277">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -34,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/fixtures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
+            <state relative-caret-position="1155">
               <caret line="79" column="63" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="63" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -128,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1981" />
     <option name="y" value="-4" />
     <option name="width" value="1855" />
@@ -193,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_add_picture">
+  <component name="RunManager" selected="Python.test_browserstack">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,27 +253,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="page_objects" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="otus-qa-course" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HomeWork/Selenium/models/page_objects" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HomeWork/Selenium/models/page_objects/page_objects.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="static-and-classmethods" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="otus-qa-course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -318,6 +295,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_browserstack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="otus-qa-course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HomeWork/Lesson 13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HomeWork/Lesson 13/test_browserstack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_products_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="otus-qa-course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -341,11 +339,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_browserstack" />
         <item itemvalue="Python.test_add_picture" />
         <item itemvalue="Python.static-and-classmethods" />
         <item itemvalue="Python.desciptors-datadescr" />
         <item itemvalue="Python.test_products_page" />
-        <item itemvalue="Python.page_objects" />
       </list>
     </recent_temporary>
   </component>
@@ -422,9 +420,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1980" y="-4" width="1861" height="1085" extended-state="6" />
+    <frame x="1981" y="-4" width="1859" height="1084" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -437,7 +435,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.498366" weight="0.32925585" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5163399" side_tool="true" weight="0.401631" />
       <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49509802" weight="0.3119266" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.48366013" visible="true" weight="0.2579001" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.48366013" visible="true" weight="0.23955148" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -533,42 +531,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/lib/python3.5/functools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/_pytest/fixtures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="958" selection-start-line="958" selection-end-line="958" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/models/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson14/html/test_example.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson14/json/test_example.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson14/test_marking/test_mark_params.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson14/test_marking/test_example1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson14/test_marking/example2/conftest.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -692,18 +654,6 @@
     <entry file="file://$PROJECT_DIR$/Lesson15/allure/fixtures1/test_example.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson15/allure/basic_features/test_basic.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson15/allure/basic_features/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson15/allure/basic_features/test_features.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -742,16 +692,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_products_page_del.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_products_page_edit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
@@ -841,26 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_downloads.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/fixtures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="63" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson14/html/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -871,13 +791,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/conftest.py">
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/selenium/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/lib/python3.5/platform.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_products_page_edit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
+        <state relative-caret-position="75">
+          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <folding>
+            <element signature="e#7890#7896#0" expanded="true" />
+            <element signature="e#7898#7904#0" expanded="true" />
+            <element signature="e#7906#7912#0" expanded="true" />
+            <element signature="e#7917#7923#0" expanded="true" />
+            <element signature="e#7925#7931#0" expanded="true" />
+            <element signature="e#7937#7943#0" expanded="true" />
+            <element signature="e#7945#7951#0" expanded="true" />
+            <element signature="e#7956#7962#0" expanded="true" />
+            <element signature="e#7964#7970#0" expanded="true" />
+            <element signature="e#7976#7982#0" expanded="true" />
+            <element signature="e#7984#7990#0" expanded="true" />
+            <element signature="e#7996#8002#0" expanded="true" />
+            <element signature="e#8178#8184#0" expanded="true" />
+            <element signature="e#8190#8196#0" expanded="true" />
+            <element signature="e#8198#8204#0" expanded="true" />
+            <element signature="e#8209#8215#0" expanded="true" />
+            <element signature="e#8217#8223#0" expanded="true" />
+            <element signature="e#8228#8234#0" expanded="true" />
+            <element signature="e#8236#8242#0" expanded="true" />
+            <element signature="e#8248#8254#0" expanded="true" />
+            <element signature="e#8256#8262#0" expanded="true" />
+            <element signature="e#8270#8276#0" expanded="true" />
+            <element signature="e#8278#8284#0" expanded="true" />
+            <element signature="e#8289#8295#0" expanded="true" />
+            <element signature="e#8297#8303#0" expanded="true" />
+            <element signature="e#8307#8313#0" expanded="true" />
+            <element signature="e#8315#8321#0" expanded="true" />
+            <element signature="e#8327#8333#0" expanded="true" />
+            <element signature="e#10699#10703#0" expanded="true" />
+            <element signature="e#10777#10781#0" expanded="true" />
+            <element signature="e#10800#10804#0" expanded="true" />
+            <element signature="e#10893#10897#0" expanded="true" />
+            <element signature="e#10936#10942#0" expanded="true" />
+            <element signature="e#10947#10953#0" expanded="true" />
+            <element signature="e#10955#10961#0" expanded="true" />
+            <element signature="e#10987#10993#0" expanded="true" />
+            <element signature="e#11145#11151#0" expanded="true" />
+            <element signature="e#11155#11161#0" expanded="true" />
+            <element signature="e#11204#11210#0" expanded="true" />
+            <element signature="e#11214#11220#0" expanded="true" />
+            <element signature="e#11263#11269#0" expanded="true" />
+            <element signature="e#11273#11279#0" expanded="true" />
+            <element signature="e#11285#11289#0" expanded="true" />
+            <element signature="e#11358#11362#0" expanded="true" />
+            <element signature="e#11451#11455#0" expanded="true" />
+            <element signature="e#11473#11477#0" expanded="true" />
+            <element signature="e#11551#11555#0" expanded="true" />
+            <element signature="e#12388#12392#0" expanded="true" />
+            <element signature="e#12468#12472#0" expanded="true" />
+            <element signature="e#12537#12543#0" expanded="true" />
+            <element signature="e#12548#12554#0" expanded="true" />
+            <element signature="e#12556#12562#0" expanded="true" />
+            <element signature="e#12567#12573#0" expanded="true" />
+            <element signature="e#12574#12580#0" expanded="true" />
+            <element signature="e#12593#12599#0" expanded="true" />
+            <element signature="e#12600#12606#0" expanded="true" />
+            <element signature="e#12613#12619#0" expanded="true" />
+            <element signature="e#12620#12626#0" expanded="true" />
+            <element signature="e#12667#12673#0" expanded="true" />
+            <element signature="e#12674#12680#0" expanded="true" />
+            <element signature="e#12690#12696#0" expanded="true" />
+            <element signature="e#12697#12703#0" expanded="true" />
+            <element signature="e#12703#12709#0" expanded="true" />
+            <element signature="e#12780#12786#0" expanded="true" />
+            <element signature="e#12786#12792#0" expanded="true" />
+            <element signature="e#12792#12798#0" expanded="true" />
+            <element signature="e#13104#13110#0" expanded="true" />
+            <element signature="e#13110#13116#0" expanded="true" />
+            <element signature="e#13116#13122#0" expanded="true" />
+            <element signature="e#13328#13334#0" expanded="true" />
+            <element signature="e#13341#13347#0" expanded="true" />
+            <element signature="e#13349#13355#0" expanded="true" />
+            <element signature="e#13355#13361#0" expanded="true" />
+            <element signature="e#13397#13403#0" expanded="true" />
+            <element signature="e#13409#13415#0" expanded="true" />
+            <element signature="e#13417#13423#0" expanded="true" />
+            <element signature="e#13423#13429#0" expanded="true" />
+            <element signature="e#14016#14022#0" expanded="true" />
+            <element signature="e#14028#14034#0" expanded="true" />
+            <element signature="e#14080#14086#0" expanded="true" />
+            <element signature="e#14091#14097#0" expanded="true" />
+            <element signature="e#18486#18492#0" expanded="true" />
+            <element signature="e#18492#18498#0" expanded="true" />
+            <element signature="e#19142#19146#0" expanded="true" />
+            <element signature="e#19155#19159#0" expanded="true" />
+            <element signature="e#19235#19241#0" expanded="true" />
+            <element signature="e#19246#19252#0" expanded="true" />
+            <element signature="e#19359#19363#0" expanded="true" />
+            <element signature="e#19372#19376#0" expanded="true" />
+            <element signature="e#19478#19484#0" expanded="true" />
+            <element signature="e#19489#19495#0" expanded="true" />
+            <element signature="e#19565#19571#0" expanded="true" />
+            <element signature="e#19585#19591#0" expanded="true" />
+            <element signature="e#20304#20308#0" expanded="true" />
+            <element signature="e#20530#20534#0" expanded="true" />
+            <element signature="e#20597#20601#0" expanded="true" />
+            <element signature="e#20619#20623#0" expanded="true" />
+            <element signature="e#20699#20703#0" expanded="true" />
+            <element signature="e#20844#20850#0" expanded="true" />
+            <element signature="e#20855#20861#0" expanded="true" />
+            <element signature="e#20863#20869#0" expanded="true" />
+            <element signature="e#20874#20880#0" expanded="true" />
+            <element signature="e#20881#20887#0" expanded="true" />
+            <element signature="e#20900#20906#0" expanded="true" />
+            <element signature="e#20907#20913#0" expanded="true" />
+            <element signature="e#20920#20926#0" expanded="true" />
+            <element signature="e#20927#20933#0" expanded="true" />
+            <element signature="e#20974#20980#0" expanded="true" />
+            <element signature="e#20981#20987#0" expanded="true" />
+            <element signature="e#20997#21003#0" expanded="true" />
+            <element signature="e#21004#21010#0" expanded="true" />
+            <element signature="e#21010#21016#0" expanded="true" />
+            <element signature="e#21065#21069#0" expanded="true" />
+            <element signature="e#21145#21149#0" expanded="true" />
+            <element signature="e#21417#21423#0" expanded="true" />
+            <element signature="e#21428#21434#0" expanded="true" />
+            <element signature="e#21436#21442#0" expanded="true" />
+            <element signature="e#21447#21453#0" expanded="true" />
+            <element signature="e#21454#21460#0" expanded="true" />
+            <element signature="e#21473#21479#0" expanded="true" />
+            <element signature="e#21480#21486#0" expanded="true" />
+            <element signature="e#21493#21499#0" expanded="true" />
+            <element signature="e#21500#21506#0" expanded="true" />
+            <element signature="e#21547#21553#0" expanded="true" />
+            <element signature="e#21554#21560#0" expanded="true" />
+            <element signature="e#21570#21576#0" expanded="true" />
+            <element signature="e#21577#21583#0" expanded="true" />
+            <element signature="e#21583#21589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson9/selenium/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/_pytest/config/argparsing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="290" column="8" selection-start-line="290" selection-start-column="8" selection-end-line="290" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson15/allure/basic_features/test_basic.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson15/allure/basic_features/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson15/allure/allure_features/tags/severity_markers/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson15/allure/allure_features/tags/bdd_markers/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1852" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/fixtures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="79" column="63" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/test_downloads.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
