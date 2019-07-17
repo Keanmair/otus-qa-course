@@ -31,7 +31,7 @@ class MyListener(AbstractEventListener):
 
 
 def test_logging(chrome_browser):
-    chrome_browser.get('https://habr.com/ru/111')
+    chrome_browser.get('https://habr.com/ru/')
     find_button = chrome_browser.find_element_by_id('search-form-btn')
     find_button.click()
     find_field = chrome_browser.find_element_by_id('search-form-field')
