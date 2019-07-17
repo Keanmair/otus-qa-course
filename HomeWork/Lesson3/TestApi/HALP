@@ -1,0 +1,2 @@
+Use --useurls parameter to specify one or more Urlss. Separate URLs by commas.
+Suported URLs: "https://api.cdnjs.com", "https://api.openbrewerydb.org", "https://dog.ceo/api"
