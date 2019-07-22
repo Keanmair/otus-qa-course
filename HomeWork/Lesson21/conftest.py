@@ -1,4 +1,3 @@
-"""Module with fixtures for tests"""
 import time
 import socket
 import sys
@@ -10,14 +9,12 @@ from selenium.webdriver.chrome.options import Options as Chrome_options
 from HomeWork.Lesson21 import LoginPage
 
 def pytest_addoption(parser):
-    """Addoption"""
     parser.addoption("--ip", action="store", default="127.0.0.1", help="Host IP")
     parser.addoption("--login", action="store", default="root", help="login")
     parser.addoption("--password", action="store", default="PASSWORD", help="password")
 
 
 def parse_ssh_manager_out(text):
-    """ssh response parser"""
     text = str.encode(text)
     text = text.decode('utf8')
     text = text.strip("b' ")
@@ -30,7 +27,6 @@ def parse_ssh_manager_out(text):
 
 
 def command(cmd, hostname, login, password):
-    """ssh command manager with return"""
     buff_size = 2048
     stdout = ""
     stderr = ""
@@ -74,7 +70,6 @@ def command(cmd, hostname, login, password):
 
 
 def command_without_return(cmd, hostname, login, password):
-    """ssh command manager without return"""
     connect_retry_count = 3
     for _ in range(connect_retry_count):
         try:
@@ -101,7 +96,6 @@ def command_without_return(cmd, hostname, login, password):
 
 @pytest.fixture
 def get_driver(request):
-    """Fixture to create, return and close driver"""
     options = Chrome_options()
     options.headless = True
     driver = webdriver.Chrome(chrome_options=options)
@@ -115,31 +109,26 @@ def get_driver(request):
 
 @pytest.fixture
 def cmdopt_hostname(request):
-    """hostname fixture"""
     return request.config.getoption("--ip")
 
 
 @pytest.fixture
 def url(cmdopt_hostname):
-    """URL fixture"""
     return "http://" + cmdopt_hostname + "/opencart"
 
 
 @pytest.fixture
 def cmdopt_login(request):
-    """Login fixture"""
     return request.config.getoption("--login")
 
 
 @pytest.fixture
 def cmdopt_password(request):
-    """Password fixture"""
     return request.config.getoption("--password")
 
 
 @pytest.fixture
 def apache_restart_test(cmdopt_hostname, cmdopt_login, cmdopt_password):
-    """Apache restart fixture"""
     command("systemctl restart apache2", cmdopt_hostname, cmdopt_login, cmdopt_password)
     retcode, stdout, stderr = command("systemctl is-active apache2", cmdopt_hostname, cmdopt_login, cmdopt_password)
     current_result = retcode
@@ -149,7 +138,6 @@ def apache_restart_test(cmdopt_hostname, cmdopt_login, cmdopt_password):
 
 @pytest.fixture
 def mysql_restart_test(cmdopt_hostname, cmdopt_login, cmdopt_password):
-    """MySQL restart fixture"""
     command("systemctl restart mysql", cmdopt_hostname, cmdopt_login, cmdopt_password)
     retcode, stdout, stderr = command("systemctl is-active mysql", cmdopt_hostname, cmdopt_login, cmdopt_password)
     current_result = retcode
@@ -159,7 +147,6 @@ def mysql_restart_test(cmdopt_hostname, cmdopt_login, cmdopt_password):
 
 @pytest.fixture
 def is_base_page(get_driver, url):
-    """Check base page fixture"""
     login_page = LoginPage(get_driver, url)
     login_page.navigate()
     current_result = login_page.get_title()
@@ -169,5 +156,4 @@ def is_base_page(get_driver, url):
 
 @pytest.fixture
 def server_reset(cmdopt_hostname, cmdopt_login, cmdopt_password):
-    """Server reset fixture"""
     command_without_return("reboot", cmdopt_hostname, cmdopt_login, cmdopt_password)
