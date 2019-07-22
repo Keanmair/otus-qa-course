@@ -7,4 +7,5 @@ WORKDIR /root/repository
 RUN git init
 RUN git pull https://github.com/Keanmair/otus-qa-course.git
 RUN ls 
+COPY chromedriver ./
 CMD ["pytest", "-v", "/root/repository/docker/test_docker.py"]
