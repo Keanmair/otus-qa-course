@@ -8,6 +8,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as Chrome_options
 from HomeWork.Lesson21 import LoginPage
 
+
 def pytest_addoption(parser):
     parser.addoption("--ip", action="store", default="127.0.0.1", help="Host IP")
     parser.addoption("--login", action="store", default="root", help="login")
