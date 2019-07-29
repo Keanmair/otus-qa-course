@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6d179e8-d7da-41af-b564-5964833ace55" name="Default" comment="Lesson2" />
+    <list default="true" id="d6d179e8-d7da-41af-b564-5964833ace55" name="Default" comment="Lesson2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomeWork/HW26/test_linux.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="990">
@@ -25,14 +27,16 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HomeWork/HW33/test.robot">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/conftest.py">
+        <entry file="file://$PROJECT_DIR$/HomeWork/HW33/testdata.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -59,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HomeWork/Lesson5/conftest.py" />
-        <option value="$PROJECT_DIR$/otus-qa/Lesson9/exceptions/example1-basic.py" />
         <option value="$PROJECT_DIR$/HomeWork/Selenium/test_products_page.py" />
         <option value="$PROJECT_DIR$/HomeWork/Selenium/text_products_page_del.py" />
         <option value="$PROJECT_DIR$/HomeWork/Selenium/test_login_page_negative.py" />
@@ -110,14 +112,16 @@
         <option value="$PROJECT_DIR$/HomeWork/Lesson22/test_socket.py" />
         <option value="$PROJECT_DIR$/HomeWork/Lesson22/conftest.py" />
         <option value="$PROJECT_DIR$/HomeWork/HW26/test_linux.py" />
+        <option value="$PROJECT_DIR$/HomeWork/HW33/testdata.robot" />
+        <option value="$PROJECT_DIR$/HomeWork/HW33/test.robot" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="70" />
+    <option name="x" value="149" />
     <option name="y" value="27" />
-    <option name="width" value="1850" />
-    <option name="height" value="1053" />
+    <option name="width" value="1654" />
+    <option name="height" value="941" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -147,6 +151,18 @@
               <item name="otus-qa-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="otus-qa-course" type="462c0819:PsiDirectoryNode" />
               <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="otus-qa-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otus-qa-course" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="HW33" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="otus-qa-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otus-qa-course" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Selenium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="otus-qa-course" type="b2602c69:ProjectViewProjectNode" />
@@ -432,7 +448,7 @@
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1850" height="1053" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26710454" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26710454" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -445,7 +461,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.498366" weight="0.32925585" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5163399" side_tool="true" weight="0.401631" />
       <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49509802" weight="0.3119266" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.48366013" visible="true" weight="0.3653217" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.48366013" visible="true" weight="0.3653217" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -546,10 +562,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HomeWork/Lesson3/TestApi/requests.py" />
-    <entry file="file://$PROJECT_DIR$/HomeWork/Grid/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/HomeWork/Lesson3/TestApi/conftest.py" />
     <entry file="file://$PROJECT_DIR$/HomeWork/Grid/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -854,16 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HomeWork/HW26/test_linux.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -873,6 +875,26 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/Selenium/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/HW33/testdata.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/HW33/test.robot">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

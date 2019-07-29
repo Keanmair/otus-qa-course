@@ -1,3 +1,4 @@
+*** Settings ***
 Documentation    Suite description
 Library  SeleniumLibrary
 Resource  testdata.robot
@@ -14,6 +15,7 @@ FailLogin
    AssertFailtNotification
 
 
+*** Test Cases ***
 AddProduct
     OpenAdminPage
     Login

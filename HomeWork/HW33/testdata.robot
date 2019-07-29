@@ -1,3 +1,4 @@
+*** Keywords ***
 OpenAdminPage
     Open Browser  http://192.168.77.43/admin/  Chrome
     Title Should be  Administration
