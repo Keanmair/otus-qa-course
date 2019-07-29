@@ -64,7 +64,7 @@ def test_dir():
 
 def test_pwd():
     content = subprocess.Popen(["pwd"], stdout=subprocess.PIPE).stdout.read().decode('utf-8')
-    assert "/home/korneev/PycharmProjects/otus_qa_course/" in content
+    assert "/home/korneev/" in content
     print(content)
 
 
