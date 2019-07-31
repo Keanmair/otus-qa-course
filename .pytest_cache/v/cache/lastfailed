@@ -1,0 +1,8 @@
+{
+  "HomeWork/Lesson20/test_db.py::test_check_new_row": true,
+  "HomeWork/Lesson20/test_db.py::test_create_new_row": true,
+  "HomeWork/Selenium/test_allure.py::TestLoginPage::test_add_product": true,
+  "HomeWork/Selenium/test_allure.py::TestLoginPage::test_login": true,
+  "Lesson2/fixtures/example4-params/example-params.py::test_not_2[2]": true,
+  "Lesson3/example1-parametrize/test_example1_params.py::test_eval[6*9]": true
+}
