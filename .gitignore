@@ -1,6 +1,7 @@
 # Created by pytest automatically.
 
 .idea/
+.pytest_cache/
 /venv/
 /Other/
 /Lesson2/
