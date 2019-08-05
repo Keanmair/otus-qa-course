@@ -22,7 +22,6 @@ class DogApi(unittest.TestCase):
         mock_get.return_value.json.return_value = sub_breeds
         response = get_sub_breeds()
         mock_get_patcher.stop()
-
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.json(), sub_breeds)
 
