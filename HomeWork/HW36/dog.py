@@ -5,7 +5,6 @@ SUB_BREEDS = 'https://dog.ceo/api/breed/hound/list'
 
 
 def get_breeds():
-    """Get list of breeds"""
     response = requests.get(DOG_URL)
     if response.ok:
         return response
@@ -14,7 +13,6 @@ def get_breeds():
 
 
 def get_sub_breeds():
-    """Get list of hound sub-breeds"""
     response = requests.get(SUB_BREEDS)
     if response.status_code == 200:
         return response
