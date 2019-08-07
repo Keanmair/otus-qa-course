@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.3 on linux)" generated="20190807 16:56:22.116" rpa="false">
+<suite id="s1" name="Test" source="/home/korneev/PycharmProjects/otus-qa-course/HomeWork/HW34/test.robot">
+<test id="s1-t1" name="GetCountBeforeAdd">
+<kw name="ConnectToDB" library="testdata">
+<kw name="Connect To Database">
+<arguments>
+<arg>pymysql</arg>
+<arg>bitnami_opencart</arg>
+<arg>bn_opencart</arg>
+<arg>${DBPass}</arg>
+<arg>192.168.77.43</arg>
+<arg>4407</arg>
+</arguments>
+<msg timestamp="20190807 16:56:22.222" level="FAIL">No keyword with name 'Connect To Database' found.</msg>
+<status status="FAIL" starttime="20190807 16:56:22.222" endtime="20190807 16:56:22.222"></status>
+</kw>
+<status status="FAIL" starttime="20190807 16:56:22.219" endtime="20190807 16:56:22.222"></status>
+</kw>
+<kw name="Close all browsers" type="teardown">
+<msg timestamp="20190807 16:56:22.225" level="FAIL">No keyword with name 'Close all browsers' found.</msg>
+<status status="FAIL" starttime="20190807 16:56:22.224" endtime="20190807 16:56:22.225">No keyword with name 'Close all browsers' found.</status>
+</kw>
+<status status="FAIL" starttime="20190807 16:56:22.219" endtime="20190807 16:56:22.225" critical="yes">No keyword with name 'Connect To Database' found.
+
+Also teardown failed:
+No keyword with name 'Close all browsers' found.</status>
+</test>
+<test id="s1-t2" name="AddProduct">
+<kw name="AddProduct" library="testdata">
+<kw name="OpenAdminPage" library="testdata">
+<kw name="Open Browser">
+<arguments>
+<arg>http://192.168.77.43/admin/</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20190807 16:56:22.227" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20190807 16:56:22.227" endtime="20190807 16:56:22.227"></status>
+</kw>
+<status status="FAIL" starttime="20190807 16:56:22.226" endtime="20190807 16:56:22.227"></status>
+</kw>
+<status status="FAIL" starttime="20190807 16:56:22.225" endtime="20190807 16:56:22.227"></status>
+</kw>
+<kw name="Close all browsers" type="teardown">
+<msg timestamp="20190807 16:56:22.228" level="FAIL">No keyword with name 'Close all browsers' found.</msg>
+<status status="FAIL" starttime="20190807 16:56:22.228" endtime="20190807 16:56:22.228">No keyword with name 'Close all browsers' found.</status>
+</kw>
+<status status="FAIL" starttime="20190807 16:56:22.225" endtime="20190807 16:56:22.228" critical="yes">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close all browsers' found.</status>
+</test>
+<test id="s1-t3" name="GetCountAfterAdd">
+<kw name="ConnectToDB" library="testdata">
+<kw name="Connect To Database">
+<arguments>
+<arg>pymysql</arg>
+<arg>bitnami_opencart</arg>
+<arg>bn_opencart</arg>
+<arg>${DBPass}</arg>
+<arg>192.168.77.43</arg>
+<arg>4407</arg>
+</arguments>
+<msg timestamp="20190807 16:56:22.230" level="FAIL">No keyword with name 'Connect To Database' found.</msg>
+<status status="FAIL" starttime="20190807 16:56:22.230" endtime="20190807 16:56:22.230"></status>
+</kw>
+<status status="FAIL" starttime="20190807 16:56:22.229" endtime="20190807 16:56:22.230"></status>
+</kw>
+<kw name="Close all browsers" type="teardown">
+<msg timestamp="20190807 16:56:22.232" level="FAIL">No keyword with name 'Close all browsers' found.</msg>
+<status status="FAIL" starttime="20190807 16:56:22.231" endtime="20190807 16:56:22.232">No keyword with name 'Close all browsers' found.</status>
+</kw>
+<status status="FAIL" starttime="20190807 16:56:22.228" endtime="20190807 16:56:22.232" critical="yes">No keyword with name 'Connect To Database' found.
+
+Also teardown failed:
+No keyword with name 'Close all browsers' found.</status>
+</test>
+<test id="s1-t4" name="DeleteProduct">
+<kw name="DeleteProduct" library="testdata">
+<kw name="OpenAdminPage" library="testdata">
+<kw name="Open Browser">
+<arguments>
+<arg>http://192.168.77.43/admin/</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20190807 16:56:22.234" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20190807 16:56:22.234" endtime="20190807 16:56:22.234"></status>
+</kw>
+<status status="FAIL" starttime="20190807 16:56:22.233" endtime="20190807 16:56:22.234"></status>
+</kw>
+<status status="FAIL" starttime="20190807 16:56:22.232" endtime="20190807 16:56:22.234"></status>
+</kw>
+<kw name="Close all browsers" type="teardown">
+<msg timestamp="20190807 16:56:22.235" level="FAIL">No keyword with name 'Close all browsers' found.</msg>
+<status status="FAIL" starttime="20190807 16:56:22.235" endtime="20190807 16:56:22.235">No keyword with name 'Close all browsers' found.</status>
+</kw>
+<status status="FAIL" starttime="20190807 16:56:22.232" endtime="20190807 16:56:22.235" critical="yes">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close all browsers' found.</status>
+</test>
+<test id="s1-t5" name="GetCountAfterDelete">
+<kw name="ConnectToDB" library="testdata">
+<kw name="Connect To Database">
+<arguments>
+<arg>pymysql</arg>
+<arg>bitnami_opencart</arg>
+<arg>bn_opencart</arg>
+<arg>${DBPass}</arg>
+<arg>192.168.77.43</arg>
+<arg>4407</arg>
+</arguments>
+<msg timestamp="20190807 16:56:22.237" level="FAIL">No keyword with name 'Connect To Database' found.</msg>
+<status status="FAIL" starttime="20190807 16:56:22.236" endtime="20190807 16:56:22.237"></status>
+</kw>
+<status status="FAIL" starttime="20190807 16:56:22.235" endtime="20190807 16:56:22.237"></status>
+</kw>
+<kw name="Close all browsers" type="teardown">
+<msg timestamp="20190807 16:56:22.238" level="FAIL">No keyword with name 'Close all browsers' found.</msg>
+<status status="FAIL" starttime="20190807 16:56:22.238" endtime="20190807 16:56:22.238">No keyword with name 'Close all browsers' found.</status>
+</kw>
+<status status="FAIL" starttime="20190807 16:56:22.235" endtime="20190807 16:56:22.238" critical="yes">No keyword with name 'Connect To Database' found.
+
+Also teardown failed:
+No keyword with name 'Close all browsers' found.</status>
+</test>
+<doc>Suite description</doc>
+<status status="FAIL" starttime="20190807 16:56:22.118" endtime="20190807 16:56:22.238"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="5">Critical Tests</stat>
+<stat pass="0" fail="5">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="5" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20190807 16:56:22.212" level="ERROR">Error in file '/home/korneev/PycharmProjects/otus-qa-course/HomeWork/HW34/test.robot': Importing test library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /home/korneev/PycharmProjects/otus-qa-course/venv/bin
+  /usr/lib/python37.zip
+  /usr/lib/python3.7
+  /usr/lib/python3.7/lib-dynload
+  /home/korneev/PycharmProjects/otus-qa-course/venv/lib/python3.7/site-packages
+  /home/korneev/PycharmProjects/otus-qa-course/venv/lib/python3.7/site-packages/setuptools-40.8.0-py3.7.egg
+  /home/korneev/PycharmProjects/otus-qa-course/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg</msg>
+<msg timestamp="20190807 16:56:22.213" level="ERROR">Error in file '/home/korneev/PycharmProjects/otus-qa-course/HomeWork/HW34/test.robot': Importing test library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /home/korneev/PycharmProjects/otus-qa-course/venv/bin
+  /usr/lib/python37.zip
+  /usr/lib/python3.7
+  /usr/lib/python3.7/lib-dynload
+  /home/korneev/PycharmProjects/otus-qa-course/venv/lib/python3.7/site-packages
+  /home/korneev/PycharmProjects/otus-qa-course/venv/lib/python3.7/site-packages/setuptools-40.8.0-py3.7.egg
+  /home/korneev/PycharmProjects/otus-qa-course/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg</msg>
+<msg timestamp="20190807 16:56:22.217" level="ERROR">Error in file '/home/korneev/PycharmProjects/otus-qa-course/HomeWork/HW34/testdata.robot': Importing test library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /home/korneev/PycharmProjects/otus-qa-course/venv/bin
+  /usr/lib/python37.zip
+  /usr/lib/python3.7
+  /usr/lib/python3.7/lib-dynload
+  /home/korneev/PycharmProjects/otus-qa-course/venv/lib/python3.7/site-packages
+  /home/korneev/PycharmProjects/otus-qa-course/venv/lib/python3.7/site-packages/setuptools-40.8.0-py3.7.egg
+  /home/korneev/PycharmProjects/otus-qa-course/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg</msg>
+<msg timestamp="20190807 16:56:22.218" level="ERROR">Error in file '/home/korneev/PycharmProjects/otus-qa-course/HomeWork/HW34/test.robot': Importing test library 'SeleniumScreenshots' failed: ModuleNotFoundError: No module named 'SeleniumScreenshots'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /home/korneev/PycharmProjects/otus-qa-course/venv/bin
+  /usr/lib/python37.zip
+  /usr/lib/python3.7
+  /usr/lib/python3.7/lib-dynload
+  /home/korneev/PycharmProjects/otus-qa-course/venv/lib/python3.7/site-packages
+  /home/korneev/PycharmProjects/otus-qa-course/venv/lib/python3.7/site-packages/setuptools-40.8.0-py3.7.egg
+  /home/korneev/PycharmProjects/otus-qa-course/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg</msg>
+</errors>
+</robot>
